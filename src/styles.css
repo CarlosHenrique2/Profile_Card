@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background: #19a1ae;
+  overflow: hidden;
+}
+
+@media (max-width: 1440px) {
+  body:before,
+  body:after {
+    content: "";
+    border-radius: 100%;
+    position: absolute;
+    display: block;
+    width: 622px;
+    height: 621px;
+    background: linear-gradient(
+      180deg,
+      rgba(9, 137, 180, 0.0001) 0.78%,
+      #53ffee 99.94%
+    );
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: 0;
+  }
+
+  body:before {
+    left: -50px;
+    top: -430px;
+  }
+  body:after {
+    left: 980px;
+    top: 385px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body:before,
+  body:after {
+    content: "";
+    border-radius: 100%;
+    position: absolute;
+    display: block;
+    width: 978px;
+    height: 976px;
+    background: linear-gradient(
+      180deg,
+      rgba(9, 137, 180, 0.0001) 0.78%,
+      #53ffee 99.94%
+    );
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    z-index: 0;
+  }
+
+  body:before {
+    left: -50px;
+    top: -430px;
+  }
+  body:after {
+    left: 980px;
+    top: 385px;
+  }
+}
